@@ -1,0 +1,8 @@
+@font-face {
+  font-family: Poppins;
+  src: url(/src/fonts/Poppins-Regular.ttf);
+}
+
+.MuiTypography-body1 {
+  font-family: Poppins !important;
+}
