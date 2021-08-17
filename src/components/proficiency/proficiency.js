@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card'
 import CardContent from '@material-ui/core/CardContent'
 import Typography  from '@material-ui/core/Typography';
-import './proficiency.component.css'
+import './proficiency.component.scss'
 
 const useStyles = makeStyles({
     root: {
@@ -13,28 +13,25 @@ const useStyles = makeStyles({
     },
     h3: {
         textAlign: 'center',
-        fontSize: 20
-    },
-    pos: {
-      marginBottom: 12,
+        fontSize: 25
     },
     gridContainer: {
         paddingLeft: '20px',
-        paddingRight: '20px'
+        paddingRight: '35px'
     }
   });
 
-export default function Profiency() {
+export default function Proficiency() {
     const classes = useStyles();
         return(
-            <div className="profiency-page">
-                <h2>My Proficieny:</h2>
+            <div className="proficiency-page">
+                <h1>My Proficiency:</h1>
                 <Grid container spacing={4} className={classes.gridContainer}>
                     <Grid item xs={12} sm={6} md={3}>
                        <Card className={classes.root}>
                                <CardContent>
                                <Typography className={classes.h3} component="h3" >Frontend</Typography> 
-                               <Typography component="p">As for my Frontend stuff I use: HTML, CSS SCSS/SASS and Bootstrap</Typography>
+                               <Typography component="p">HTML, CSS SCSS/SASS Javascript and Bootstrap</Typography>
                               </CardContent>
                         </Card> 
                     </Grid>
@@ -42,7 +39,7 @@ export default function Profiency() {
                        <Card className={classes.root} >
                             <CardContent>
                                <Typography className={classes.h3} component="h3">Frameworks</Typography>
-                               <Typography component="p">As for Frameworks im used to working with: React, Angular, AngularJS, Ionic and Laravel</Typography>
+                               <Typography component="p">React, Angular, AngularJS, Ionic and Laravel</Typography>
                             </CardContent>
                         </Card> 
                     </Grid>
@@ -50,7 +47,7 @@ export default function Profiency() {
                        <Card className={classes.root}>
                             <CardContent>
                                <Typography className={classes.h3} component="h3">UI/UX</Typography>
-                               <Typography component="p">For my UI/UX designs I use Adobe CC products such as: Photoshop & Adobe Xd</Typography>
+                               <Typography component="p">For my UI/UX designs I use Adobe CC products such as: Photoshop & Adobe Xd.</Typography>
                                <Typography>I prefer to keep my designs minimal and clean as possible with minimal colours and Material Design</Typography> 
                             </CardContent>
                         </Card> 
@@ -59,7 +56,7 @@ export default function Profiency() {
                        <Card className={classes.root} >
                             <CardContent>
                                <Typography className={classes.h3} component="h3">Office</Typography>
-                               <Typography component="p">Office Tools</Typography>
+                               <Typography component="p">For office related things I use: LibreOffice and Office365</Typography>
                             </CardContent>
                         </Card> 
                     </Grid>

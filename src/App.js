@@ -1,19 +1,22 @@
-import './App.css';
-import About from './components/about/about' 
-import Proficieny from './components/proficiency/proficieny'
+import './App.scss'
+import About from 'components/about/about' 
+import Proficiency from 'components/proficiency/proficiency'
+import Contact from 'components/contact/contact'
 
 function App() {
   return (
     <div className="App">
-      <nav>
-        <ul>
-          <li>About Me</li>
-          <li>My Profiency</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-      <About/>
-      <Proficieny/>
+      <div className="container">
+          <section>
+               <About/>
+          </section>
+           <section>
+              <Proficiency/>
+          </section>
+          <section>
+              <Contact/>
+          </section>
+      </div>
     </div>
   );
 }
