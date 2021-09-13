@@ -2,6 +2,7 @@ import './App.scss'
 import About from 'components/about/about' 
 import Proficiency from 'components/proficiency/proficiency'
 import Contact from 'components/contact/contact'
+import Work from 'components/work/work'
 
 function App() {
   return (
@@ -14,8 +15,12 @@ function App() {
               <Proficiency/>
           </section>
           <section>
+              <Work/>
+          </section>
+          <section>
               <Contact/>
           </section>
+         
       </div>
     </div>
   );

@@ -47,8 +47,7 @@ export default function Proficiency() {
                        <Card className={classes.root}>
                             <CardContent>
                                <Typography className={classes.h3} component="h3">UI/UX</Typography>
-                               <Typography component="p">For my UI/UX designs I use Adobe CC products such as: Photoshop & Adobe Xd.</Typography>
-                               <Typography>I prefer to keep my designs minimal and clean as possible with minimal colours and Material Design</Typography> 
+                               <Typography component="p">Adobe Xd, Photoshop, Figma and Minimal Design</Typography>
                             </CardContent>
                         </Card> 
                     </Grid>
@@ -56,7 +55,7 @@ export default function Proficiency() {
                        <Card className={classes.root} >
                             <CardContent>
                                <Typography className={classes.h3} component="h3">Office</Typography>
-                               <Typography component="p">For office related things I use: LibreOffice and Office365</Typography>
+                               <Typography component="p">LibreOffice and Office365</Typography>
                             </CardContent>
                         </Card> 
                     </Grid>
